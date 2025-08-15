@@ -1,0 +1,47 @@
+# Build artifacts
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+file_encrypto
+
+# IDE and editor files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Test output files
+test_*.txt
+test_*.bin
+test_*.enc
+test_*.dec
+encrypted_*.bin
+decrypted_*.txt
+compressed_*.bin
+decompressed_*.txt
+
+# Key files (for security)
+*.key
+key_*.txt
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Backup files
+*.bak
+*.backup
